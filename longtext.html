@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my future husband Muhammad Raihan ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #feada6 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            max-width: 650px;
+            width: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            position: relative;
+            z-index: 10;
+        }
+
+        h1 {
+            color: #d63384;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2em;
+        }
+
+        .letter-content {
+            color: #4a4a4a;
+            line-height: 1.8;
+            font-size: 1.05em;
+            white-space: pre-line;
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        /* Scrollbar custom */
+        .letter-content::-webkit-scrollbar {
+            width: 6px;
+        }
+        .letter-content::-webkit-scrollbar-thumb {
+            background-color: #ff85a2;
+            border-radius: 10px;
+        }
+
+        .footer {
+            margin-top: 25px;
+            text-align: right;
+            font-weight: bold;
+            color: #d63384;
+            font-style: italic;
+        }
+
+        /* Animasi Hati Terbang */
+        .heart {
+            position: fixed;
+            font-size: 20px;
+            color: #ff4b5c;
+            animation: floatUp 4s linear infinite;
+            z-index: 1;
+            bottom: -20px;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(0) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) scale(1.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>my future husband Muhammad Raihan ❤️</h1>
+        <div class="letter-content" id="longtext">
+haiii sayanggg...
+nadee cuma mawu bilang terima kasih... terima kasih sudah hadir dan mewarnai hari-hari nadee yang sebelumnya biasa saja menjadi terasa sangat spesial. 
+
+setiap kali nadee lihat senyum atau mendengar suara kamu, ada rasa tenang yang engga bisa nadee jelaskan dengan kata-kata, kamu bukan sekadar seseorang yang nadee sayangii, tapi kamu adalah tempat pulang yang paling nyaman.
+
+jujur yaa sayangg...nadee sangatt percayaa sama ehann, nadee mempercayakan diri nadee ke ehann, karna nadee merasa aman dan terjamin di masa depan dengan adanya bukti yang kamu usahakan sayanggg, nadee juga percaya kita bisa melalui bareng-bareng semua yang terjadi dan yang akan terjadi, jadi tolongg kerja sama nyaa yaa sayangg kita sama-sama saling menjaga kepercayaan.
+
+sayanggg jangan takutt dan jangan berpikiran kalau di masa depan kamu takut gabisa apa-apa... aku yakinnn sayangg bisaa kalaupun gabisa kita sama-sama belajar yaa sayanggg, pasti akan berada difase pertama kali untuk semua hal yang akan kita lalui nantinyaa, salah itu bukan hal yang burukk tapi itu salah satu proses menuju yang benarr.
+
+kalau ada apa-apa bilangg sama aku yaaa sayangg, beban pikirannya jangan dipikul sendirii, berbagi isi pikiran kamu sama akuu sayanggg, aku selalu ada buat kamuuu ❤️
+
+makasiii yaa sayangg suda sabar menghadapi aku, suda mawu mendengarkan keluh kesahku, dan tetap tinggal bersama aku. aku berharap kita bisa terus berjalan bersama, melewati setiap cerita manis maupun rintangan di depan nanti.
+
+selama sama aku kamu tetap jadi diri sendirii yaa sayanggg, gapapaaa bangett kalau diluar sana kamu jadi seorang lelaki yang kuat, sebagai anak lelaki yang tangguh, sebagai abang yang berani, tapi kalau sama aku jadilah anak kecil yang haus perhatian yaa sayanggkuu, dengan senang hatii aku memanjakan sayanggg.
+
+I love you so much! ✨
+        </div>
+        <div class="footer">
+            ~ di antara riuhnya dunia, ingatlah bahwa kamu selalu punya satu tempat hangat untuk pulang—di dalam hatiku❤️
+        </div>
+    </div>
+
+    <script>
+        // Efek membuat animasi hati bertebaran
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.innerHTML = '❤️';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = Math.random() * 2 + 3 + 's';
+            heart.style.fontSize = Math.random() * 15 + 15 + 'px';
+            document.body.appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 5000);
+        }
+
+        setInterval(createHeart, 300);
+    </script>
+</body>
+</html>
